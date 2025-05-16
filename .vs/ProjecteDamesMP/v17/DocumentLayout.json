@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Fitxa.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Fitxa.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Posicio.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Posicio.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Posicio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Posicio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Tauler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Moviments.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Moviments.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Tauler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fitxa.hpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Fitxa.hpp",
+              "RelativeDocumentMoniker": "Fitxa.hpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Fitxa.hpp",
+              "RelativeToolTip": "Fitxa.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-11T16:28:30.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Moviments.hpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Moviments.hpp",
+              "RelativeDocumentMoniker": "Moviments.hpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Moviments.hpp",
+              "RelativeToolTip": "Moviments.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-16T15:48:16.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tauler.cpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.cpp",
+              "RelativeDocumentMoniker": "Tauler.cpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.cpp",
+              "RelativeToolTip": "Tauler.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-16T15:47:01.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tauler.hpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.hpp",
+              "RelativeDocumentMoniker": "Tauler.hpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.hpp",
+              "RelativeToolTip": "Tauler.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-11T16:50:21.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Posicio.hpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Posicio.hpp",
+              "RelativeDocumentMoniker": "Posicio.hpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Posicio.hpp",
+              "RelativeToolTip": "Posicio.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-11T16:42:21.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Posicio.cpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Posicio.cpp",
+              "RelativeDocumentMoniker": "Posicio.cpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Posicio.cpp",
+              "RelativeToolTip": "Posicio.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-16T16:15:52.547Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

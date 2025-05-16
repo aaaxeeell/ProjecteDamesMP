@@ -10,6 +10,14 @@ public:
 	Fitxa() : TFitxa(TIPUS_EMPTY), CFitxa(COLOR_BLANC) {}
 	Fitxa(TipusFitxa T, ColorFitxa C) : TFitxa(T), CFitxa(C) {}
 
+	// Getters:
+	TipusFitxa getTipus() const { return TFitxa; }
+	ColorFitxa getColor() const { return CFitxa; }
+	
+	bool esDama() const { return TFitxa == TIPUS_DAMA; }
+	bool esBuida() const { return TFitxa == TIPUS_EMPTY; }
+	void ferDama() const { TFitxa == TIPUS_DAMA; }
+
 private:
 	TipusFitxa TFitxa;
 	ColorFitxa CFitxa;

@@ -6,13 +6,19 @@
 
 #include "Fitxa.hpp"
 #include "Posicio.hpp"
+using namespace std;
 
 class Tauler
 {
 public:
-	Tauler();
+	Tauler();	
 
 	void inicialitza(const string& NomFitxer);
+	void actualitzaMovimentsValids();
+	void getPosicionsPosibles(const Posicio& Origen, int& nPosicions, Posicio PosicionsPosibles[]);
+	bool mouFitxa(const Posicio& Origen, const Posicio& Desti);
+	string ToString();
+
 private:
 	Fitxa m_Tauler[N_FILES][N_COLUMNES];
 };
