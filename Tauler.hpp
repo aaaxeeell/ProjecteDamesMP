@@ -17,7 +17,7 @@ public:
 	void actualitzaMovimentsValids();
 	void getPosicionsPosibles(const Posicio& Origen, int& nPosicions, Posicio PosicionsPosibles[]);
 	bool mouFitxa(const Posicio& Origen, const Posicio& Desti);
-	string ToString();
+	string ToString() const;
 
 private:
 	Fitxa m_Tauler[N_FILES][N_COLUMNES];

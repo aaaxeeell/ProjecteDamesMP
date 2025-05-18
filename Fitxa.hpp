@@ -3,8 +3,9 @@
 #define FITXA_HPP
 
 #define MAX_POSICIONS_POSSIBLES 10
+#include "Moviments.hpp"
 
-class Fitxa
+class Fitxa 
 {
 public:
 	Fitxa() : TFitxa(TIPUS_EMPTY), CFitxa(COLOR_BLANC) {}
@@ -18,11 +19,17 @@ public:
 	bool esBuida() const { return TFitxa == TIPUS_EMPTY; }
 	void ferDama() const { TFitxa == TIPUS_DAMA; }
 
+	void afegeixMovimentValid(const Moviment& M);
+	int getNMovimentsValids() const { return m_NMoviments; }
+	Moviment getMovimentValid(int i) const;
+	void eliminaMoviments();
+
 private:
 	TipusFitxa TFitxa;
 	ColorFitxa CFitxa;
 	
-	Posicio m_PosicionsPossibles[MAX_POSICIONS_POSSIBLES]
+	Moviment m_MovimentsValids[MAX_POSICIONS_POSSIBLES];
+	int m_NMoviments;
 	
 };
 

@@ -133,6 +133,8 @@
     <ClInclude Include="Tauler.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Fitxa.cpp" />
+    <ClCompile Include="Moviment.cpp" />
     <ClCompile Include="Posicio.cpp" />
     <ClCompile Include="Tauler.cpp" />
   </ItemGroup>
