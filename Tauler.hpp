@@ -18,6 +18,9 @@ public:
 	void getPosicionsPosibles(const Posicio& Origen, int& nPosicions, Posicio PosicionsPosibles[]);
 	bool mouFitxa(const Posicio& Origen, const Posicio& Desti);
 	string ToString() const;
+	void afegeixCapturesRecursives(const Posicio& P, Fitxa& F);
+	int obtenirCaptures(const Posicio& P, ColorFitxa C, Posicio Resultats[]);
+	void filtrarMovimentsCaptures(Fitxa& F);
 
 private:
 	Fitxa m_Tauler[N_FILES][N_COLUMNES];
