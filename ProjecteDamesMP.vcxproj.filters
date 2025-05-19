@@ -27,6 +27,9 @@
     <ClInclude Include="Moviments.hpp">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Tauler.cpp">
@@ -39,6 +42,9 @@
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="Fitxa.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
