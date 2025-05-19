@@ -17,7 +17,7 @@ public:
 	
 	bool esDama() const { return TFitxa == TIPUS_DAMA; }
 	bool esBuida() const { return TFitxa == TIPUS_EMPTY; }
-	void ferDama() const { TFitxa == TIPUS_DAMA; }
+	void ferDama() { TFitxa = TIPUS_DAMA; }
 
 	void afegeixMovimentValid(const Moviment& M);
 	int getNMovimentsValids() const { return m_NMoviments; }

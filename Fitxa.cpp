@@ -11,7 +11,7 @@ void Fitxa::afegeixMovimentValid(const Moviment& M)
 
 Moviment Fitxa::getMovimentValid(int i) const
 {
-	if (i >= 0 && i <= m_NMoviments)
+	if (i >= 0 && i < m_NMoviments)
 	{
 		return m_MovimentsValids[i];
 	}

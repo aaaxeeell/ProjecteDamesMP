@@ -1,0 +1,340 @@
+﻿  Fitxa.cpp
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,8): error C2061: error de sintaxis: identificador 'TipusFitxa'
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,2): error C2535: 'Fitxa::Fitxa(void)': función miembro ya definida o declarada
+  (compilando archivo de origen "Fitxa.cpp")
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,2):
+      vea la declaración de 'Fitxa::Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(15,13): error C3646: 'getTipus': especificador de invalidación desconocido
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(15,21): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(15,30): error C2334: símbolos (token) inesperados delante de '{'; se pasará por alto el cuerpo de función aparente
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(16,13): error C3646: 'getColor': especificador de invalidación desconocido
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(16,21): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(16,30): error C2334: símbolos (token) inesperados delante de '{'; se pasará por alto el cuerpo de función aparente
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(28,13): error C3646: 'TFitxa': especificador de invalidación desconocido
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(28,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(29,13): error C3646: 'CFitxa': especificador de invalidación desconocido
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(29,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,19): error C2065: 'TIPUS_EMPTY': identificador no declarado
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,40): error C2065: 'COLOR_BLANC': identificador no declarado
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,12): error C2614: 'Fitxa': inicialización de miembro no válida: 'TFitxa' no es una base o miembro
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,33): error C2614: 'Fitxa': inicialización de miembro no válida: 'CFitxa' no es una base o miembro
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,45): error C2065: 'T': identificador no declarado
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,56): error C2065: 'C': identificador no declarado
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,38): error C2614: 'Fitxa': inicialización de miembro no válida: 'TFitxa' no es una base o miembro
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,49): error C2614: 'Fitxa': inicialización de miembro no válida: 'CFitxa' no es una base o miembro
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(18,31): error C2065: 'TFitxa': identificador no declarado
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(18,41): error C2065: 'TIPUS_DAMA': identificador no declarado
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(19,32): error C2065: 'TFitxa': identificador no declarado
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(19,42): error C2065: 'TIPUS_EMPTY': identificador no declarado
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(20,19): error C2065: 'TFitxa': identificador no declarado
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(20,28): error C2065: 'TIPUS_DAMA': identificador no declarado
+  (compilando archivo de origen "Fitxa.cpp")
+  
+  Posicio.cpp
+D:\Ingenieria Informática\ProjecteDamesMP\Posicio.cpp(13,16): error C2065: 'N_FILES': identificador no declarado
+D:\Ingenieria Informática\ProjecteDamesMP\Posicio.cpp(19,12): error C2065: 'N_FILES': identificador no declarado
+  Tauler.cpp
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,8): error C2061: error de sintaxis: identificador 'TipusFitxa'
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,2): error C2535: 'Fitxa::Fitxa(void)': función miembro ya definida o declarada
+  (compilando archivo de origen "Tauler.cpp")
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,2):
+      vea la declaración de 'Fitxa::Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(15,13): error C3646: 'getTipus': especificador de invalidación desconocido
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(15,21): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(15,30): error C2334: símbolos (token) inesperados delante de '{'; se pasará por alto el cuerpo de función aparente
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(16,13): error C3646: 'getColor': especificador de invalidación desconocido
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(16,21): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(16,30): error C2334: símbolos (token) inesperados delante de '{'; se pasará por alto el cuerpo de función aparente
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(28,13): error C3646: 'TFitxa': especificador de invalidación desconocido
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(28,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(29,13): error C3646: 'CFitxa': especificador de invalidación desconocido
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(29,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,19): error C2065: 'TIPUS_EMPTY': identificador no declarado
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,40): error C2065: 'COLOR_BLANC': identificador no declarado
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,12): error C2614: 'Fitxa': inicialización de miembro no válida: 'TFitxa' no es una base o miembro
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,33): error C2614: 'Fitxa': inicialización de miembro no válida: 'CFitxa' no es una base o miembro
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,45): error C2065: 'T': identificador no declarado
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,56): error C2065: 'C': identificador no declarado
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,38): error C2614: 'Fitxa': inicialización de miembro no válida: 'TFitxa' no es una base o miembro
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,49): error C2614: 'Fitxa': inicialización de miembro no válida: 'CFitxa' no es una base o miembro
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(18,31): error C2065: 'TFitxa': identificador no declarado
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(18,41): error C2065: 'TIPUS_DAMA': identificador no declarado
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(19,32): error C2065: 'TFitxa': identificador no declarado
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(19,42): error C2065: 'TIPUS_EMPTY': identificador no declarado
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(20,19): error C2065: 'TFitxa': identificador no declarado
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(20,28): error C2065: 'TIPUS_DAMA': identificador no declarado
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(9,26): error C2440: '<function-style-cast>': no se puede realizar la conversión de 'initializer list' a 'Fitxa'
+      D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(9,26):
+      'Fitxa::Fitxa': la función no acepta 2 argumentos
+          D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(9,26):
+          al hacer coincidir la lista de argumentos '(TipusFitxa, ColorFitxa)'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(60,48): error C2440: '<function-style-cast>': no se puede realizar la conversión de 'initializer list' a 'Fitxa'
+      D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(60,48):
+      'Fitxa::Fitxa': la función no acepta 2 argumentos
+          D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(60,48):
+          al hacer coincidir la lista de argumentos '(TipusFitxa, ColorFitxa)'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(84,11): error C2039: "getColor": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(125,26): error C2039: "getTipus": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(130,11): error C2039: "getColor": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(189,42): error C2039: "getColor": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(189,58): error C2039: "getColor": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(209,42): error C2039: "getColor": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(209,58): error C2039: "getColor": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(222,26): error C2039: "getTipus": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(291,31): error C2039: "getColor": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(329,18): error C2039: "getColor": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(381,42): error C2039: "getColor": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(381,16): error C2660: 'Tauler::obtenirCaptures': la función no acepta 3 argumentos
+      D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(262,13):
+      vea la declaración de 'Tauler::obtenirCaptures'
+      D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(381,16):
+      al hacer coincidir la lista de argumentos '(Posicio, bool, Posicio [10])'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(527,11): error C2039: "getTipus": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(529,13): error C2039: "getColor": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Tauler.cpp(529,67): error C2039: "getColor": no es un miembro de "Fitxa"
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(8,7):
+      vea la declaración de 'Fitxa'
+  
+  test.cpp
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,8): error C2061: error de sintaxis: identificador 'TipusFitxa'
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,2): error C2535: 'Fitxa::Fitxa(void)': función miembro ya definida o declarada
+  (compilando archivo de origen "test.cpp")
+      D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,2):
+      vea la declaración de 'Fitxa::Fitxa'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(15,13): error C3646: 'getTipus': especificador de invalidación desconocido
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(15,21): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(15,30): error C2334: símbolos (token) inesperados delante de '{'; se pasará por alto el cuerpo de función aparente
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(16,13): error C3646: 'getColor': especificador de invalidación desconocido
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(16,21): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(16,30): error C2334: símbolos (token) inesperados delante de '{'; se pasará por alto el cuerpo de función aparente
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(28,13): error C3646: 'TFitxa': especificador de invalidación desconocido
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(28,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(29,13): error C3646: 'CFitxa': especificador de invalidación desconocido
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(29,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,19): error C2065: 'TIPUS_EMPTY': identificador no declarado
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,40): error C2065: 'COLOR_BLANC': identificador no declarado
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,12): error C2614: 'Fitxa': inicialización de miembro no válida: 'TFitxa' no es una base o miembro
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(11,33): error C2614: 'Fitxa': inicialización de miembro no válida: 'CFitxa' no es una base o miembro
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,45): error C2065: 'T': identificador no declarado
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,56): error C2065: 'C': identificador no declarado
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,38): error C2614: 'Fitxa': inicialización de miembro no válida: 'TFitxa' no es una base o miembro
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(12,49): error C2614: 'Fitxa': inicialización de miembro no válida: 'CFitxa' no es una base o miembro
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(18,31): error C2065: 'TFitxa': identificador no declarado
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(18,41): error C2065: 'TIPUS_DAMA': identificador no declarado
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(19,32): error C2065: 'TFitxa': identificador no declarado
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(19,42): error C2065: 'TIPUS_EMPTY': identificador no declarado
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(20,19): error C2065: 'TFitxa': identificador no declarado
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(20,28): error C2065: 'TIPUS_DAMA': identificador no declarado
+  (compilando archivo de origen "test.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\test.cpp(14,11): error C2059: error de sintaxis: 'constante'
+D:\Ingenieria Informática\ProjecteDamesMP\test.cpp(96,24): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Ingenieria Informática\ProjecteDamesMP\test.cpp(179,36): error C2039: "toString": no es un miembro de "Tauler"
+      D:\Ingenieria Informática\ProjecteDamesMP\Tauler.hpp(11,7):
+      vea la declaración de 'Tauler'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\test.cpp(314,40): error C2039: "toString": no es un miembro de "Tauler"
+      D:\Ingenieria Informática\ProjecteDamesMP\Tauler.hpp(11,7):
+      vea la declaración de 'Tauler'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\test.cpp(324,16): error C2039: "getPosicionsPossibles": no es un miembro de "Tauler"
+      D:\Ingenieria Informática\ProjecteDamesMP\Tauler.hpp(11,7):
+      vea la declaración de 'Tauler'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\test.cpp(438,45): error C2039: "toString": no es un miembro de "Tauler"
+      D:\Ingenieria Informática\ProjecteDamesMP\Tauler.hpp(11,7):
+      vea la declaración de 'Tauler'
+  
+D:\Ingenieria Informática\ProjecteDamesMP\test.cpp(447,22): warning C4305: '+=': truncamiento de 'double' a 'float'
+  Generando código...
