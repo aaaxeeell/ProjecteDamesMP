@@ -1,5 +1,5 @@
 #include "Posicio.hpp"
-
+#include "Tauler.hpp"
 Posicio::Posicio(const string& P)
 {
 	FromString(P);
@@ -14,10 +14,11 @@ string Posicio::ToString() const
 	return P;
 }
 
-string Posicio::FromString(const string& P)
+void Posicio::FromString(const string& P)
 {
 	m_Fila = (N_FILES - 1) - (P[1] - '1');
 	m_Columna = P[0] - 'a';
+
 }
 
 // OPERADORS SOBRECARREGATS DE LECTURA I ESCRIPTURA

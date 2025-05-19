@@ -13,7 +13,7 @@ public:
   Posicio(const string& P);  
 
   string ToString() const; // De coordenades a string tipus 'A1'.  
-  string FromString(const string& P);  
+  void FromString(const string& P);  
 
   int getFila() const { return m_Fila; }  
   int getColumna() const { return m_Columna; }  

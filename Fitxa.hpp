@@ -2,8 +2,23 @@
 #ifndef FITXA_HPP
 #define FITXA_HPP
 
-#define MAX_POSICIONS_POSSIBLES 10
 #include "Moviments.hpp"
+
+typedef enum
+{
+	TIPUS_NORMAL,
+	TIPUS_EMPTY,
+	TIPUS_DAMA
+
+}TipusFitxa;
+
+typedef enum
+{
+	COLOR_NEGRE,
+	COLOR_BLANC
+
+}ColorFitxa;
+
 
 class Fitxa 
 {
@@ -34,19 +49,5 @@ private:
 };
 
 
-typedef enum
-{
-	TIPUS_NORMAL,
-	TIPUS_EMPTY,
-	TIPUS_DAMA
-
-}TipusFitxa;
-
-typedef enum
-{
-	COLOR_NEGRE,
-	COLOR_BLANC
-
-}ColorFitxa;
 #endif
 
