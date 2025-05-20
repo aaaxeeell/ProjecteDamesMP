@@ -3,6 +3,7 @@
 #define FITXA_HPP
 
 #include "Moviments.hpp"
+const int MAX_POSICIONS_POSSIBLES = 10;
 
 typedef enum
 {
@@ -23,8 +24,8 @@ typedef enum
 class Fitxa 
 {
 public:
-	Fitxa() : TFitxa(TIPUS_EMPTY), CFitxa(COLOR_BLANC) {}
-	Fitxa(TipusFitxa T, ColorFitxa C) : TFitxa(T), CFitxa(C) {}
+	Fitxa() : TFitxa(TIPUS_EMPTY), CFitxa(COLOR_BLANC), m_NMoviments(0) {}
+	Fitxa(TipusFitxa T, ColorFitxa C) : TFitxa(T), CFitxa(C), m_NMoviments(0) {}
 
 	// Getters:
 	TipusFitxa getTipus() const { return TFitxa; }

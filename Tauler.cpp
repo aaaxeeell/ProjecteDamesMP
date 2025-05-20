@@ -13,9 +13,18 @@ Tauler::Tauler()
 
 void Tauler::inicialitza(const string& NomFitxer)
 {
-	Tauler(); // Inicialització en buit.
+	// S'ha d'inicialitzar el tauler buit. (No podem cridar el constructor per defecte?)
+	for (int i = 0; i < N_FILES; i++)
+	{
+		for (int j = 0; j < N_COLUMNES; j++)
+		{
+			m_Tauler[i][j] = Fitxa(TIPUS_EMPTY, COLOR_BLANC);
+		}
+	}
 
-	ifstream FitxerTauler(NomFitxer);
+	ifstream FitxerTauler;
+	FitxerTauler.open(NomFitxer); /// Assegurem que hem obert el fitxer.
+
 	char FitxaT;
 	string PosicioFitxa;
 
@@ -70,14 +79,14 @@ string Tauler::ToString() const
 	// Imprimir NFILES:
 	for (int i = 0; i < N_FILES; i++)
 	{
-		SS << (N_FILES - i) << ":";
+		SS << (N_FILES - i) << ": ";
 
 		for (int j = 0; j < N_COLUMNES; j++)
 		{
 			const Fitxa& F = m_Tauler[i][j];
 			if (F.esBuida())
 			{
-				SS << "_";
+				SS << "_ ";
 			}
 			else
 			{
