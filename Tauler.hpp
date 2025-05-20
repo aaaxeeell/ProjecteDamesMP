@@ -16,6 +16,7 @@ public:
 	void inicialitza(const string& NomFitxer);
 	void actualitzaMovimentsValids();
 	void getPosicionsPosibles(const Posicio& Origen, int& nPosicions, Posicio PosicionsPosibles[]);
+
 	bool mouFitxa(const Posicio& Origen, const Posicio& Desti);
 	string ToString() const;
 	void afegeixCapturesRecursives(const Posicio& P, Fitxa& F, bool esDama);

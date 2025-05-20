@@ -9,6 +9,8 @@ class Moviment
 {
 public:
 	Moviment() : m_NPosicions(0) {}
+	Moviment(const Moviment& other);
+	Moviment& operator=(const Moviment& other);
 	void afegeiexPosicio(const Posicio& P); // Afegim una posicio al camí.
 	int getNPosicions() const { return m_NPosicions; } // Retorna quantes posicions hi ha al camí.
 	Posicio getPosicio(int i) const; // Retorna la posició 'i' del camí.

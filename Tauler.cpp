@@ -94,22 +94,22 @@ string Tauler::ToString() const
 				{
 					if (F.esDama())
 					{
-						SS << "D";
+						SS << "D ";
 					}
 					else
 					{
-						SS << "O";
+						SS << "O ";
 					}
 				}
 				else
 				{
 					if (F.esDama())
 					{
-						SS << "R";
+						SS << "R ";
 					}
 					else
 					{
-						SS << "X";
+						SS << "X ";
 					}
 				}
 			}
@@ -327,14 +327,6 @@ int Tauler::obtenirCaptures(const Posicio& P, ColorFitxa C, bool esDama, Posicio
 					}
 					// Si no hi ha rival, seguim avançant.
 
-					else
-					{
-						if (trobatRival)
-						{
-							// Ja havia una fitxa -> no podem saltar més d'una.
-						}
-					}
-
 					if (Casella.getColor() != C)
 					{
 						// Trobat primer rival.
@@ -359,53 +351,51 @@ int Tauler::obtenirCaptures(const Posicio& P, ColorFitxa C, bool esDama, Posicio
 	return n;
 
 }
-void Tauler::afegeixCapturesRecursives(const Posicio& Origen, Fitxa& F, bool esDama)
+
+void Tauler::afegeixCapturesRecursives(const Posicio& P, Fitxa& F, bool esDama)
 {
 	Moviment MPendents[100];
-	int nPendents = 0;
-
-	// Inicialitzem el primer moviment amb la posició d'origen.
-	Moviment M;
-	M.afegeiexPosicio(Origen);
-	MPendents[nPendents] = M;
-	nPendents++;
+	int nPendents = 1;
+	MPendents[0].afegeiexPosicio(P);
 
 	while (nPendents > 0)
 	{
-		// Treiem el primer mov. pendent.
 		Moviment MActual = MPendents[0];
-		
-		// Desplaçem cap a l'esquerra.
 		for (int i = 1; i < nPendents; i++)
-		{
 			MPendents[i - 1] = MPendents[i];
-		}
 		nPendents--;
 
-		// Última posició del moviment actual.
 		Posicio PFinal = MActual.getPosicio(MActual.getNPosicions() - 1);
 
-		// Busquem captrues des d'aquesta posicio.
-		Posicio Noves[10];
+		Posicio Noves[4];
 		int nNoves = obtenirCaptures(PFinal, F.getColor(), esDama, Noves);
 
-		if (nNoves == 0)
+		bool novaRutaAfegida = false;
+		for (int i = 0; i < nNoves; i++)
 		{
-			// No hi ha més captures --> MOVIMENT VÀLID.
-			if (MActual.getNPosicions() > 1)
+			// Evitar cicles: no tornar a visitar una posició ja en el camí
+			bool jaVisitat = false;
+			for (int j = 0; j < MActual.getNPosicions(); j++)
 			{
-				F.afegeixMovimentValid(MActual);
+				if (MActual.getPosicio(j) == Noves[i])
+				{
+					jaVisitat = true;
+					break;
+				}
 			}
-		}
-		else
-		{
-			for (int i = 0; i < nNoves; i++)
+
+			if (!jaVisitat && nPendents < 100)
 			{
 				Moviment COPIA = MActual;
 				COPIA.afegeiexPosicio(Noves[i]);
-				MPendents[nPendents] = COPIA;
-				nPendents++;
+				MPendents[nPendents++] = COPIA;
+				novaRutaAfegida = true;
 			}
+		}
+
+		if (!novaRutaAfegida && MActual.getNPosicions() > 1)
+		{
+			F.afegeixMovimentValid(MActual);
 		}
 	}
 }
@@ -415,10 +405,8 @@ void Tauler::filtrarMovimentsCaptures(Fitxa& F)
 	const int MAX = 10;
 	Moviment Captures[MAX];
 	int nCaptures = 0;
-
 	int maxLongitud = 1;
 
-	// PAS 1: TROBEM NOMÉS ELS MOVIMENTS AMB CAPTURA.
 	for (int i = 0; i < F.getNMovimentsValids(); i++)
 	{
 		Moviment M = F.getMovimentValid(i);
@@ -430,26 +418,21 @@ void Tauler::filtrarMovimentsCaptures(Fitxa& F)
 				nCaptures = 0;
 				Captures[nCaptures++] = M;
 			}
-			else
+			else if (M.getNPosicions() == maxLongitud)
 			{
-				if (M.getNPosicions() == maxLongitud)
-				{
-					Captures[nCaptures++] = M;
-				}
+				Captures[nCaptures++] = M;
 			}
 		}
 	}
 
-	// PAS 2: ESBORREM ELS MOVIMENTS DE LA FITXA.
-	F.eliminaMoviments();
-
-	// PAS 3: Afegim només els millors captures trobats.
-	for (int i = 0; i < nCaptures; i++)
+	if (nCaptures > 0)
 	{
-		F.afegeixMovimentValid(Captures[i]);
+		F.eliminaMoviments();
+		for (int i = 0; i < nCaptures; i++)
+			F.afegeixMovimentValid(Captures[i]);
 	}
-
 }
+
 
 
 void Tauler::getPosicionsPosibles(const Posicio& Origen, int& nPosicions, Posicio PosicionsPossibles[])
@@ -481,7 +464,7 @@ bool Tauler::mouFitxa(const Posicio& Origen, const Posicio& Desti)
 	int filaDesti = Desti.getFila();
 	int columnaDesti = Desti.getColumna();
 
-	bool mouFitxa = true;
+	bool mouFitxa = false;
 
 	Posicio millorFitxa;
 	int maxCaptures = obtenirMaxCaptures(millorFitxa);
@@ -490,10 +473,9 @@ bool Tauler::mouFitxa(const Posicio& Origen, const Posicio& Desti)
 
 	if (F.esBuida())
 	{
-		mouFitxa = false;
+		return false; // No hi ha fitxa.
 	}
 
-	bool movimentTrobat = false;
 	Moviment MSeleccionat;
 
 	for (int i = 0; i < F.getNMovimentsValids(); i++)
@@ -502,13 +484,18 @@ bool Tauler::mouFitxa(const Posicio& Origen, const Posicio& Desti)
 		if (M.getNPosicions() > 0)
 		{
 			Posicio FINAL = M.getPosicio(M.getNPosicions() - 1);
-			if (FINAL == Desti)
+			if (FINAL == Desti) 
 			{
-				movimentTrobat = true;
 				MSeleccionat = M;
+				mouFitxa = true;
 				break;
 			}
 		}
+	}
+
+	if (!mouFitxa)
+	{
+		return false;
 	}
 
 	m_Tauler[filaDesti][columnaDesti] = F;
@@ -551,7 +538,7 @@ bool Tauler::mouFitxa(const Posicio& Origen, const Posicio& Desti)
 		m_Tauler[filaBufada][columnaBufada] = Fitxa();
 	}
 
-
+	actualitzaMovimentsValids();
 	return mouFitxa;
 }
 

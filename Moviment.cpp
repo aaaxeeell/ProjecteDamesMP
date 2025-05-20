@@ -15,4 +15,29 @@ Posicio Moviment::getPosicio(int i) const
 	{
 		return m_Cami[i];
 	}
+
+	return Posicio();
 }
+
+Moviment::Moviment(const Moviment& other)  
+{  
+   for (int i = 0; i < other.m_NPosicions; ++i)  
+   {  
+       m_Cami[i] = other.m_Cami[i];  
+   }  
+   m_NPosicions = other.m_NPosicions;  
+}  
+
+Moviment& Moviment::operator=(const Moviment& other)  
+{  
+   if (this != &other)  
+   {  
+       for (int i = 0; i < other.m_NPosicions; ++i)  
+       {  
+           m_Cami[i] = other.m_Cami[i];  
+       }  
+       m_NPosicions = other.m_NPosicions;  
+   }  
+   return *this;  
+}
+
