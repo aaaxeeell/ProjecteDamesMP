@@ -1,21 +1,10 @@
 ﻿  Fitxa.cpp
-D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(46,29): error C2065: 'MAX_POSICIONS_POSSIBLES': identificador no declarado
-  (compilando archivo de origen "Fitxa.cpp")
-  
-D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.cpp(5,21): error C2065: 'MAX_POSICIONS_POSSIBLES': identificador no declarado
-D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.cpp(7,35): error C3863: el tipo de matriz 'Moviment [0]' no es asignable
+  Moviment.cpp
   Posicio.cpp
-D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(46,29): error C2065: 'MAX_POSICIONS_POSSIBLES': identificador no declarado
-  (compilando archivo de origen "Posicio.cpp")
-  
   Tauler.cpp
-D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(46,29): error C2065: 'MAX_POSICIONS_POSSIBLES': identificador no declarado
-  (compilando archivo de origen "Tauler.cpp")
-  
   test.cpp
-D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(46,29): error C2065: 'MAX_POSICIONS_POSSIBLES': identificador no declarado
-  (compilando archivo de origen "test.cpp")
-  
-D:\Ingenieria Informática\ProjecteDamesMP\test.cpp(96,24): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-D:\Ingenieria Informática\ProjecteDamesMP\test.cpp(447,22): warning C4305: '+=': truncamiento de 'double' a 'float'
+D:\Ingenieria Informática\ProjecteDamesMP\test.cpp(94,24): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Ingenieria Informática\ProjecteDamesMP\test.cpp(445,22): warning C4305: '+=': truncamiento de 'double' a 'float'
   Generando código...
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.cpp(18,1): warning C4715: 'Fitxa::getMovimentValid': no todas las rutas de acceso de control devuelven un valor
+  ProjecteDamesMP.vcxproj -> D:\Ingenieria Informática\ProjecteDamesMP\x64\Debug\ProjecteDamesMP.exe

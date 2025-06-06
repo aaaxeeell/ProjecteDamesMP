@@ -19,7 +19,8 @@ public:
 
 	bool mouFitxa(const Posicio& Origen, const Posicio& Desti);
 	string ToString() const;
-	void afegeixCapturesRecursives(const Posicio& P, Fitxa& F, bool esDama);
+	void afegeixCapturesRecursives(const Posicio& origen, Fitxa& fitxa, bool esDama);
+	void afegeixCapturesRecursivesA(const Posicio& actual, Fitxa& fitxa, Moviment camiActual, bool visitat[N_FILES][N_COLUMNES], bool esDama);
 	int obtenirCaptures(const Posicio& P, ColorFitxa C, bool esDama, Posicio Resultats[]);
 	void filtrarMovimentsCaptures(Fitxa& F);
 	int obtenirMaxCaptures(Posicio& MillorFitxa);

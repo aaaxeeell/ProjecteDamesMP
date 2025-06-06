@@ -1,0 +1,199 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "La función usa '55136' bytes de pila.  Considere la posibilidad de mover algunos datos al montón."
+          },
+          "analysisTarget": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/test.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Ingenieria Informática/ProjecteDamesMP/test.cpp"
+                },
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testTauler",
+                  "decoratedName": "?testTauler@@YAMHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAY07DAEAV?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_11_3@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_11_3@nlohmann@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "La función usa '56800' bytes de pila.  Considere la posibilidad de mover algunos datos al montón."
+          },
+          "analysisTarget": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/test.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Ingenieria Informática/ProjecteDamesMP/test.cpp"
+                },
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testMovimentsValids",
+                  "decoratedName": "?testMovimentsValids@@YAMAEAV?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_11_3@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_11_3@nlohmann@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "La función usa '56588' bytes de pila.  Considere la posibilidad de mover algunos datos al montón."
+          },
+          "analysisTarget": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/test.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Ingenieria Informática/ProjecteDamesMP/test.cpp"
+                },
+                "region": {
+                  "startLine": 357,
+                  "startColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "testMovimentFitxa",
+                  "decoratedName": "?testMovimentFitxa@@YAMAEAV?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_11_3@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_11_3@nlohmann@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"nlohmann::json_abi_v3_11_3::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::json_abi_v3_11_3::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> >,void>::m_data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/test.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Ingenieria Informática/ProjecteDamesMP/json.hpp"
+                },
+                "region": {
+                  "startLine": 20444,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "nlohmann::json_abi_v3_11_3::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::json_abi_v3_11_3::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> >,void>::{ctor}",
+                  "decoratedName": "??$?0V?$json_ref@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_11_3@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_11_3@nlohmann@@@detail@json_abi_v3_11_3@nlohmann@@$0A@@?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_11_3@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_11_3@nlohmann@@QEAA@AEBV?$json_ref@V?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_11_3@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_11_3@nlohmann@@@detail@12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "nlohmann::json_abi_v3_11_3::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::json_abi_v3_11_3::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> >,void>::m_data"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.43.34810.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/test.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c8e8640b43bd0549a90d5800e6537cdb8fdfcae0f1e48f9308372b889c497b89"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Ingenieria Informática/ProjecteDamesMP/json.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5b4b37308d67f9820b5926486374246054fdd06baae85309b820a8315f23caca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/tauler.hpp"
+          },
+          "hashes": {
+            "sha-256": "b75c6ca780f7fde79b9d29c6798e63ff97b55d07b6b30e8a930c72c7a3f25574"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/fitxa.hpp"
+          },
+          "hashes": {
+            "sha-256": "7ab7f62f9135563ec6821deea4c70eddeed911ee26d4e2ddaa44b76234e4dfae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/moviments.hpp"
+          },
+          "hashes": {
+            "sha-256": "df35c34420b1672831e3e938bbabd5b51382be2c91aa67f9f2169376cab01c48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/posicio.hpp"
+          },
+          "hashes": {
+            "sha-256": "5eec532b8557c8c881438b881c28c4dd3f95b569c85538ca2259f47e773e4e71"
+          }
+        }
+      ]
+    }
+  ]
+}

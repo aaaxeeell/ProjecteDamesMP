@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.43.34810.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/tauler.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b7df87c5af8b72f834d0f1308cb8840b652214cf80a7e13607b74d86a3533756"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/tauler.hpp"
+          },
+          "hashes": {
+            "sha-256": "b75c6ca780f7fde79b9d29c6798e63ff97b55d07b6b30e8a930c72c7a3f25574"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/fitxa.hpp"
+          },
+          "hashes": {
+            "sha-256": "7ab7f62f9135563ec6821deea4c70eddeed911ee26d4e2ddaa44b76234e4dfae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/moviments.hpp"
+          },
+          "hashes": {
+            "sha-256": "df35c34420b1672831e3e938bbabd5b51382be2c91aa67f9f2169376cab01c48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/ingenieria informática/projectedamesmp/posicio.hpp"
+          },
+          "hashes": {
+            "sha-256": "5eec532b8557c8c881438b881c28c4dd3f95b569c85538ca2259f47e773e4e71"
+          }
+        }
+      ]
+    }
+  ]
+}
