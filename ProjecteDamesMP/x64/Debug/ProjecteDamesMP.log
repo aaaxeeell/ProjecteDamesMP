@@ -1,10 +1,30 @@
-﻿  Fitxa.cpp
-  Moviment.cpp
-  Posicio.cpp
+﻿  GraphicManager.cpp
+D:\Ingenieria Informática\ProjecteDamesMP\0. C++ Code\Graphic Lib\sprites.h(4,10): error C1083: No se puede abrir el archivo incluir: '/Ingenieria InformÃ¡tica/ProjecteDamesMP/SDL.h': No such file or directory
+  (compilando archivo de origen "0.%20C++%20Code/Logic%20Game/GraphicManager.cpp")
+  
+  joc.cpp
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(41,59): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "0.%20C++%20Code/Logic%20Game/joc.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\0. C++ Code\Graphic Lib\sprites.h(4,10): error C1083: No se puede abrir el archivo incluir: '/Ingenieria InformÃ¡tica/ProjecteDamesMP/SDL.h': No such file or directory
+  (compilando archivo de origen "0.%20C++%20Code/Logic%20Game/joc.cpp")
+  
+  main.cpp
+D:\Ingenieria Informática\ProjecteDamesMP\0. C++ Code\Graphic Lib\sprites.h(4,10): error C1083: No se puede abrir el archivo incluir: '/Ingenieria InformÃ¡tica/ProjecteDamesMP/SDL.h': No such file or directory
+  (compilando archivo de origen "0.%20C++%20Code/Logic%20Game/main.cpp")
+  
+  Fitxa.cpp
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(41,59): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "Fitxa.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\0. C++ Code\Graphic Lib\sprites.h(4,10): error C1083: No se puede abrir el archivo incluir: '/Ingenieria InformÃ¡tica/ProjecteDamesMP/SDL.h': No such file or directory
+  (compilando archivo de origen "Fitxa.cpp")
+  
   Tauler.cpp
-  test.cpp
-D:\Ingenieria Informática\ProjecteDamesMP\test.cpp(94,24): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-D:\Ingenieria Informática\ProjecteDamesMP\test.cpp(445,22): warning C4305: '+=': truncamiento de 'double' a 'float'
+D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.hpp(41,59): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "Tauler.cpp")
+  
+D:\Ingenieria Informática\ProjecteDamesMP\0. C++ Code\Graphic Lib\sprites.h(4,10): error C1083: No se puede abrir el archivo incluir: '/Ingenieria InformÃ¡tica/ProjecteDamesMP/SDL.h': No such file or directory
+  (compilando archivo de origen "Tauler.cpp")
+  
   Generando código...
-D:\Ingenieria Informática\ProjecteDamesMP\Fitxa.cpp(18,1): warning C4715: 'Fitxa::getMovimentValid': no todas las rutas de acceso de control devuelven un valor
-  ProjecteDamesMP.vcxproj -> D:\Ingenieria Informática\ProjecteDamesMP\x64\Debug\ProjecteDamesMP.exe

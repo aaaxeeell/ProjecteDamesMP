@@ -127,6 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="0. C++ Code\Logic Game\GraphicManager.h" />
+    <ClInclude Include="0. C++ Code\Logic Game\info_joc.hpp" />
+    <ClInclude Include="0. C++ Code\Logic Game\joc.hpp" />
+    <ClInclude Include="CuaMoviments.hpp" />
     <ClInclude Include="Fitxa.hpp" />
     <ClInclude Include="json.hpp" />
     <ClInclude Include="Moviments.hpp" />
@@ -134,11 +138,14 @@
     <ClInclude Include="Tauler.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="0. C++ Code\Logic Game\GraphicManager.cpp" />
+    <ClCompile Include="0. C++ Code\Logic Game\joc.cpp" />
+    <ClCompile Include="0. C++ Code\Logic Game\main.cpp" />
+    <ClCompile Include="CuaMoviments.cpp" />
     <ClCompile Include="Fitxa.cpp" />
     <ClCompile Include="Moviment.cpp" />
     <ClCompile Include="Posicio.cpp" />
     <ClCompile Include="Tauler.cpp" />
-    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

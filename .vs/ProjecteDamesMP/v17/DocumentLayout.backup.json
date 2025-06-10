@@ -3,32 +3,68 @@
   "WorkspaceRootPath": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Tauler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\INGENIERIA INFORM\u00C1TICA\\PROJECTEDAMESMP\\0. C\u002B\u002B CODE\\GRAPHIC LIB\\SPRITES.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:0. C\u002B\u002B CODE\\GRAPHIC LIB\\SPRITES.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Posicio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Posicio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Moviment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Moviment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Logic Game\\GraphicManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:0. C\u002B\u002B Code\\Logic Game\\GraphicManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Moviments.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Moviments.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Logic Game\\joc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:0. C\u002B\u002B Code\\Logic Game\\joc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Logic Game\\joc.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:0. C\u002B\u002B Code\\Logic Game\\joc.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Tauler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Fitxa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Fitxa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\json.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:json.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Logic Game\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:0. C\u002B\u002B Code\\Logic Game\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Tauler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\CuaMoviments.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:CuaMoviments.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\CuaMoviments.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:CuaMoviments.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Fitxa.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Fitxa.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Posicio.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Posicio.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Moviment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Moviment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Posicio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DB955707-9698-4691-9F81-F6302A91A7C9}|ProjecteDamesMP.vcxproj|solutionrelative:Posicio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Graphic Lib\\video.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:0. C\u002B\u002B Code\\Graphic Lib\\video.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +74,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Fitxa.hpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Fitxa.hpp",
+              "RelativeDocumentMoniker": "Fitxa.hpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Fitxa.hpp",
+              "RelativeToolTip": "Fitxa.hpp",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-21T13:08:01.179Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Posicio.hpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Posicio.hpp",
+              "RelativeDocumentMoniker": "Posicio.hpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Posicio.hpp",
+              "RelativeToolTip": "Posicio.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-21T13:08:05.152Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -50,84 +112,168 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sprites.h",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Graphic Lib\\sprites.h",
+              "RelativeDocumentMoniker": "0. C\u002B\u002B Code\\Graphic Lib\\sprites.h",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Graphic Lib\\sprites.h",
+              "RelativeToolTip": "0. C\u002B\u002B Code\\Graphic Lib\\sprites.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-10T14:37:45.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GraphicManager.cpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Logic Game\\GraphicManager.cpp",
+              "RelativeDocumentMoniker": "0. C\u002B\u002B Code\\Logic Game\\GraphicManager.cpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Logic Game\\GraphicManager.cpp",
+              "RelativeToolTip": "0. C\u002B\u002B Code\\Logic Game\\GraphicManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-06T19:09:19.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "video.h",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Graphic Lib\\video.h",
+              "RelativeDocumentMoniker": "0. C\u002B\u002B Code\\Graphic Lib\\video.h",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Graphic Lib\\video.h",
+              "RelativeToolTip": "0. C\u002B\u002B Code\\Graphic Lib\\video.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:38:19.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Logic Game\\main.cpp",
+              "RelativeDocumentMoniker": "0. C\u002B\u002B Code\\Logic Game\\main.cpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Logic Game\\main.cpp",
+              "RelativeToolTip": "0. C\u002B\u002B Code\\Logic Game\\main.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-06T12:17:01.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CuaMoviments.hpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\CuaMoviments.hpp",
+              "RelativeDocumentMoniker": "CuaMoviments.hpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\CuaMoviments.hpp",
+              "RelativeToolTip": "CuaMoviments.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T11:51:43.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CuaMoviments.cpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\CuaMoviments.cpp",
+              "RelativeDocumentMoniker": "CuaMoviments.cpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\CuaMoviments.cpp",
+              "RelativeToolTip": "CuaMoviments.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-06T11:51:36.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "joc.cpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Logic Game\\joc.cpp",
+              "RelativeDocumentMoniker": "0. C\u002B\u002B Code\\Logic Game\\joc.cpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Logic Game\\joc.cpp",
+              "RelativeToolTip": "0. C\u002B\u002B Code\\Logic Game\\joc.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-06T11:20:50.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "joc.hpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Logic Game\\joc.hpp",
+              "RelativeDocumentMoniker": "0. C\u002B\u002B Code\\Logic Game\\joc.hpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\0. C\u002B\u002B Code\\Logic Game\\joc.hpp",
+              "RelativeToolTip": "0. C\u002B\u002B Code\\Logic Game\\joc.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T11:19:02.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tauler.hpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.hpp",
+              "RelativeDocumentMoniker": "Tauler.hpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.hpp",
+              "RelativeToolTip": "Tauler.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-21T13:08:05.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tauler.cpp",
+              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.cpp",
+              "RelativeDocumentMoniker": "Tauler.cpp",
+              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.cpp",
+              "RelativeToolTip": "Tauler.cpp",
+              "ViewState": "AgIAABUBAAAAAAAAAAAgwPoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-16T15:47:01.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Moviments.hpp",
               "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Moviments.hpp",
               "RelativeDocumentMoniker": "Moviments.hpp",
               "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Moviments.hpp",
               "RelativeToolTip": "Moviments.hpp",
-              "ViewState": "AgIAAAAAAABAMzMzM5MwwAkAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-20T22:24:40.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "test.cpp",
-              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\test.cpp",
-              "RelativeDocumentMoniker": "test.cpp",
-              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\test.cpp",
-              "RelativeToolTip": "test.cpp",
-              "ViewState": "AgIAABsBAAAAAAAAAADwv/gAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-20T15:22:28.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "json.hpp",
-              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\json.hpp",
-              "RelativeDocumentMoniker": "json.hpp",
-              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\json.hpp",
-              "RelativeToolTip": "json.hpp",
-              "ViewState": "AgIAADwDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-20T11:04:26.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tauler.cpp",
-              "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.cpp",
-              "RelativeDocumentMoniker": "Tauler.cpp",
-              "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Tauler.cpp",
-              "RelativeToolTip": "Tauler.cpp",
-              "ViewState": "AgIAAGMBAAAAAAAAAAAAwJEBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-16T15:47:01.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Fitxa.cpp",
               "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Fitxa.cpp",
               "RelativeDocumentMoniker": "Fitxa.cpp",
               "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Fitxa.cpp",
               "RelativeToolTip": "Fitxa.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwFIAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-18T10:52:38.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T10:52:38.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Moviment.cpp",
               "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Moviment.cpp",
               "RelativeDocumentMoniker": "Moviment.cpp",
               "ToolTip": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Moviment.cpp",
               "RelativeToolTip": "Moviment.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-18T10:42:29.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T10:42:29.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "Posicio.cpp",
               "DocumentMoniker": "D:\\Ingenieria Inform\u00E1tica\\ProjecteDamesMP\\Posicio.cpp",
               "RelativeDocumentMoniker": "Posicio.cpp",
@@ -135,8 +281,7 @@
               "RelativeToolTip": "Posicio.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-16T16:15:52.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T16:15:52.547Z"
             }
           ]
         }
